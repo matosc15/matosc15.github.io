@@ -39,6 +39,23 @@ body, html {
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: @screen-lg-min) { 
 
+    #title h1 {
+        font-size: 100px;
+    }
+
+    #sub-title {
+        font-size: 35px;
+    }
+
+    #terminal {
+        font-size: 25px;
+    }
+
+    #blinker {
+        width:20px;
+        height:20px;
+    }
+
 }
 
 #aboutme {
@@ -49,25 +66,16 @@ body, html {
     color: white;
 }
 
-#title h1 {
-    font-size: 100px;
-}
-
-#sub-title {
-    font-size: 35px;
-}
-
 #terminal {
     font-family: 'Cutive Mono', monospace;
     position: absolute;
     bottom: 0;
-    font-size: 25px;
     color: #00ff00;
 }
 
 #blinker {
-    width:20px;
-    height:20px;
+    width:10px;
+    height:10px;
     background-color: black;
     animation-name: term;
     animation-duration: 1s;
