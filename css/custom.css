@@ -1,5 +1,6 @@
 body, html {
     height: 100%;
+    padding: 0;
 }
 
 .parallax { 
@@ -29,7 +30,7 @@ body, html {
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) { 
 
-    #title h1 {
+    body #title h1 {
         font-size: 75px;
     }
 
@@ -51,7 +52,7 @@ body, html {
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
 
-    #title h1 {
+    body #title h1 {
         font-size: 100px;
     }
 
@@ -70,9 +71,13 @@ body, html {
     color: white;
 }
 
+#title h1 {
+    font-size: 45px;
+}
+
 #title .terminal {
     font-family: 'Cutive Mono', monospace;
-    font-size: 12px;
+    font-size: 15px;
     position: absolute;
     bottom: 0;
     color: #00ff00;
